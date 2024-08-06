@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    background-color: #28a745;
+}
+
+.not-clickable {
+    cursor: not-allowed !important;
+    pointer-events: none !important;
+    opacity: 1 !important;
+}
+
+
+.form-group, .todo-list {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.todo-list p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+
+.todo-list {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
